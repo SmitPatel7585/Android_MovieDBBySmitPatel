@@ -1,0 +1,3 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <dimen android:name="favorite_button_size">24dp</dimen>
+</resources>

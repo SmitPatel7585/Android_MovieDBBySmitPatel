@@ -1,0 +1,37 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme -->
+    <style name="Base.Theme.MovieDBBySmitPatel" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryVariant</item>
+        <item name="colorOnPrimary">@color/colorOnPrimary</item>
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="colorOnSecondary">@color/colorOnSecondary</item>
+        <item name="colorOnBackground">@color/colorOnBackground</item>
+        <item name="colorSurface">@color/colorSurface</item>
+        <item name="colorOnSurface">@color/colorOnSurface</item>
+        <item name="colorError">@color/colorError</item>
+        <item name="colorOnError">@color/colorOnError</item>
+        <!-- CardView Styling -->
+        <item name="cardCornerRadius">8dp</item>
+        <item name="cardElevation">4dp</item>
+    </style>
+
+    <!-- Main theme of the application -->
+    <style name="Theme.MovieDBBySmitPatel" parent="Base.Theme.MovieDBBySmitPatel">
+        <!-- Customize the theme here if needed -->
+    </style>
+
+    <!-- Define primary and secondary colors -->
+    <color name="colorPrimary">#FF6200EE</color> <!-- Example primary color -->
+    <color name="colorPrimaryVariant">#FF3700B3</color> <!-- Example primary variant color -->
+    <color name="colorOnPrimary">#FFFFFF</color> <!-- Text color on primary color -->
+    <color name="colorSecondary">#FF03DAC5</color> <!-- Example secondary color -->
+    <color name="colorOnSecondary">#000000</color> <!-- Text color on secondary color -->
+    <color name="colorBackground">#FFFFFF</color> <!-- Background color -->
+    <color name="colorOnBackground">#000000</color> <!-- Text color on background -->
+    <color name="colorSurface">#FFFFFF</color> <!-- Surface color -->
+    <color name="colorOnSurface">#000000</color> <!-- Text color on surface -->
+    <color name="colorError">#B00020</color> <!-- Error color -->
+    <color name="colorOnError">#FFFFFF</color> <!-- Text color on error -->
+</resources>
